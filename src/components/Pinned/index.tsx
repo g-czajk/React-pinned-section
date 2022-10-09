@@ -7,7 +7,7 @@ export interface Props {
     text: string
 }
 
-const Parallax: React.FC<Props> = ({ image, text }) => {
+const Pinned: React.FC<Props> = ({ image, text }) => {
     gsap.registerPlugin(ScrollTrigger)
 
     const sectionEl = useRef<HTMLElement>(null)
@@ -62,4 +62,4 @@ const Parallax: React.FC<Props> = ({ image, text }) => {
     )
 }
 
-export default Parallax
+export default Pinned
