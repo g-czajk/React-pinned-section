@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-pinned-section/static/css/main.55043fed.css",
+    "main.js": "/React-pinned-section/static/js/main.0e8efe91.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-pinned-section/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/React-pinned-section/index.html",
+    "main.55043fed.css.map": "/React-pinned-section/static/css/main.55043fed.css.map",
+    "main.0e8efe91.js.map": "/React-pinned-section/static/js/main.0e8efe91.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-pinned-section/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55043fed.css",
+    "static/js/main.0e8efe91.js"
+  ]
+}
