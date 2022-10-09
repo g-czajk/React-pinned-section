@@ -13,6 +13,7 @@ const Parallax: React.FC<Props> = ({ image, text }) => {
     const sectionEl = useRef<HTMLElement>(null)
     const imgEl = useRef<HTMLImageElement>(null)
 
+    // flag to make useEffect run once in React strict mode (dev) - otherwise gsap gets bugged
     let ignore = false
 
     useEffect(() => {
