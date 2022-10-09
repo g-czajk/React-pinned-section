@@ -2,9 +2,17 @@
     display: flex;
     position: relative;
     width: 100vw;
-    max-height: 100vh;
+    height: 75vh;
     overflow: hidden;
 }
+
+@media (min-width: 1024px) {
+    .pinned__inner {
+        height: auto;
+        max-height: 100vh;
+    }
+}
+
 .pinned__inner::before {
     content: "";
     display: block;
